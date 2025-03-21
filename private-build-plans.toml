@@ -4,6 +4,7 @@ spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = true
+noLigation = true
 
   [buildPlans.Iosevka.variants]
   inherits = "ss12"
@@ -41,6 +42,3 @@ exportGlyphNames = true
     dollar = "through"
     percent = "rings-continuous-slash"
     bar = "natural-slope"
-
-  [buildPlans.Iosevka.ligations]
-  inherits = "dlig"
